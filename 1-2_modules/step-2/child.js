@@ -4,7 +4,7 @@
  * @param {number} b - второе число
  */
 module.exports.add = function (a, b) {
-  return a + b
+    return a + b
 }
 
 /**
@@ -13,5 +13,5 @@ module.exports.add = function (a, b) {
  * @param {number} b - второе число
  */
 module.exports.multiply = function (a, b) {
-  return a * b
+    return a * b
 }

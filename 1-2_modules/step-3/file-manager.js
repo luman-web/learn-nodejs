@@ -5,9 +5,9 @@ const fs = require('fs')
  * @param {string} path - путь к файлу
  */
 module.exports.create = function (path) {
-  fs.writeFile(path, '', 'utf-8', () => {
-    console.log('file have been created')
-  })
+    fs.writeFile(path, '', 'utf-8', () => {
+        console.log('Файл успешно создан')
+    })
 }
 
 /**
@@ -15,9 +15,9 @@ module.exports.create = function (path) {
  * @param {string} path - путь к файлу
  */
 module.exports.delete = function (path) {
-  fs.unlink(path, () => {
-    console.log('file have been deleted')
-  })
+    fs.unlink(path, () => {
+        console.log('Файл успешно удален')
+    })
 }
 
 /**
@@ -26,7 +26,7 @@ module.exports.delete = function (path) {
  * @param {string} msg - содержание файла
  */
 module.exports.edit = function (path, msg) {
-  fs.writeFile(path, msg, 'utf-8', () => {
-    console.log('file have been written')
-  })
+    fs.writeFile(path, msg, 'utf-8', () => {
+        console.log('Файл успешно отредактирован')
+    })
 }
