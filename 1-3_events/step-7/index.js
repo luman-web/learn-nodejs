@@ -8,7 +8,7 @@ process.on('uncaughtException', (err) => {
 })
 
 process.on('exit', (code) => {
-  console.log('Exiting with  code: ', code)
+  console.log('Exiting with code: ', code)
 })
 
 unexsitingFunctionCall()
